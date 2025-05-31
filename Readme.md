@@ -23,34 +23,28 @@ This project is a Django-based Course Management System where:
 
 ## Setup Instructions
 
-1. **Clone the repository:**
-   ```sh
-   git clone <your-repo-url>
-   cd <your-project-folder>
-   ```
-
-2. **Install dependencies:**
+1. **Install dependencies:**
    ```sh
    pip install django
    ```
 
-3. **Apply migrations:**
+2. **Apply migrations:**
    ```sh
    python manage.py makemigrations
    python manage.py migrate
    ```
 
-4. **Create a superuser:**
+3. **Create a superuser:**
    ```sh
    python manage.py createsuperuser
    ```
 
-5. **Run the server:**
+4. **Run the server:**
    ```sh
    python manage.py runserver
    ```
 
-6. **Access the admin panel:**  
+5. **Access the admin panel:**  
    Go to [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/) and log in with your superuser credentials.
 
 ## Usage
